@@ -81,10 +81,10 @@ $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, 
 $mail->Port = 587;
 $mail->IsHTML(true);  */
 $mail->isSMTP();                                      // Set mailer to use SMTP
-$mail->Host = 'p3plcpnl0689.prod.phx3.se';  // Specify main and backup SMTP servers
+$mail->Host = '';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
 $mail->Username = 'contact@healthyyou.online';                 // SMTP username
-$mail->Password = 'QMpz10@#';                           // SMTP password
+$mail->Password = '';                           // SMTP password
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 993;// TCP port to connect to
 $mail->IsHTML(true);
@@ -103,10 +103,10 @@ $mail1->IsHTML(true);
 */
 
 $mail1->isSMTP();                                      // Set mailer to use SMTP
-$mail1->Host = 'p3plcpnl0689.prod.phx3.se';  // Specify main and backup SMTP servers
+$mail1->Host = '';  // Specify main and backup SMTP servers
 $mail1->SMTPAuth = true;                               // Enable SMTP authentication
 $mail1->Username = 'contact@healthyyou.online';                 // SMTP username
-$mail1->Password = 'QMpz10@#';                           // SMTP password
+$mail1->Password = '';                           // SMTP password
 $mail1->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
 $mail1->Port = 993;// TCP port to connect to
 $mail1->IsHTML(true);
