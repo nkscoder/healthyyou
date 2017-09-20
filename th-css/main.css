@@ -1,0 +1,1039 @@
+
+
+/*
+
+Brand Color - #ff694c
+
+*/
+
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body{
+    font-family: 'Raleway', sans-serif;
+    color: #565a5c;
+    line-height: 1.6em;
+    overflow-x: hidden;
+    font-size: 16px;
+}
+
+section{
+    padding: 5% 0;
+}
+
+.brand-c{
+    color: #ff694c;
+
+}
+
+/* =====================================================================================================================
+                                            Navigation Section
+   =================================================================================================================== */
+
+
+.custom-navbar{
+    margin: 0;
+    height: 80px;
+    z-index: 1;
+    border: 0;
+    box-shadow: none;
+    background: transparent;
+}
+
+
+/* =====================================================================================================================
+                                            Navigation Section
+   =================================================================================================================== */
+
+#hero-section{
+    background: -webkit-linear-gradient(left ,#f2f2f2 50%,#ff694c 50%);
+}
+
+
+#hero-section .main-title{
+    font-size: 9rem;
+    text-align: center;
+    color: #373a5e;
+    text-transform: uppercase;
+}
+
+
+#hero-section .main-title span:nth-of-type(1):not(:last-of-type){
+    font-weight: 800;
+    display: block;
+    color: #373a5e;
+    padding-left: 13%;
+}
+
+
+#hero-section .main-title span:nth-of-type(1) span{
+    font-weight: 100;
+    color: #fff;
+}
+
+
+
+#hero-section .main-title span:nth-of-type(2){
+    font-weight: 300;
+    color: #ff694c;
+    display: block;
+
+}
+
+
+#hero-section .main-title span:nth-of-type(2) span{
+    font-weight: 100;
+    color: #373a5e;
+}
+
+
+#hero-section .main-title span:nth-of-type(3){
+    font-weight: 800;
+    display: block;
+    margin-left: 13.2%;
+}
+
+
+
+#hero-section .main-title span:nth-of-type(3) span{
+    font-weight: 100;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 600px) {
+    #hero-section .main-title{
+        font-size: 7rem;
+        text-align: left;
+        color: #373a5e;
+        text-transform: uppercase;
+        background-color: rgba(0, 0, 0, 0.04);
+        padding: 30px;
+        margin: 0;
+    }
+
+    #hero-section .main-title span{
+        padding: 0!important;
+        line-height: 75px;
+        margin: 0!important;
+    }
+
+
+
+}
+
+
+/* =====================================================================================================================
+                                           What We Do Section
+   =================================================================================================================== */
+
+#what-we-do .sec-title{
+    font-size: 9rem;
+    text-align: left;
+    color: #373a5e;
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height: .9em;
+
+}
+
+
+#what-we-do .sec-title span:nth-of-type(2){
+    color: #ff694c;
+    font-weight: 100;
+    display: block;
+    text-indent: 30px;
+}
+
+#what-we-do .sec-title span:nth-of-type(2) span{
+    color: #c0c0c0;
+    font-weight: 700;
+}
+
+#what-we-do .what-we-do{
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+
+
+#what-we-do .what-we-do:hover {
+    fill: #ff694c;
+    stroke: #fff;
+}
+
+
+/* =====================================================================================================================
+                                          Who we are Section
+ ===================================================================================================================*/
+
+
+#who-we-are .sec-title{
+    font-size: 9rem;
+    text-align: right;
+    color: #373a5e;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: .9em;
+
+}
+
+
+#who-we-are .sec-title span:nth-of-type(2){
+    color: #ff694c;
+    font-weight: 100;
+    display: block;
+}
+
+#who-we-are .sec-title span:nth-of-type(2) span{
+    color: #c0c0c0;
+    font-weight: 700;
+}
+
+
+/* =====================================================================================================================
+                                          Our Process Section
+ ===================================================================================================================*/
+
+#our-process .sec-title-1{
+    font-size: 9rem;
+    text-align: center;
+    color: #373a5e;
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height: .9em;
+}
+
+#our-process .sec-title-1 > span{
+    color: #ff694c;
+    display: block;
+    text-indent: 200px;
+    font-size: 5.5rem;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .sec-title-1 ,
+    .sec-title
+    {
+        font-size: 7rem!important;
+    }
+
+    .sec-title-1 > span{
+        text-indent: 0!important;
+        line-height: 60px!important;
+        font-size: 4.5rem!important;
+    }
+
+}
+
+
+/* =====================================================================================================================
+                                          Our Portfolio Section
+ ===================================================================================================================*/
+
+#portfolio .sec-title-1{
+    font-size: 9rem;
+    text-align: center;
+    color: #373a5e;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: .9em;
+}
+
+#portfolio .sec-title-1 > span{
+    color: #ff694c;
+    display: block;
+    text-indent: 200px;
+    font-size: 5.5rem;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+
+.img-gallery{
+    line-height: 0;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 0;
+    -moz-column-count: 3;
+    -moz-column-gap: 0;
+        column-count: 3;
+        column-gap: 0;
+
+}
+
+
+.img-gallery .main-container > img{
+    width: 100%!important;
+    height: auto!important;
+}
+
+
+.img-gallery .main-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.img-gallery .main-container > .overlay-txt:nth-of-type(1){
+    position: absolute;
+    top: 0;
+    left: 0;
+    /*opacity: 0;*/
+    line-height: 1.6em;
+    color: #fff;
+    text-align: center;
+    transition: all .4s ease-in-out;
+    height: 0;
+    display: -webkit-flex;
+    display: -moz-flex;
+        -webkit-justify-content: center;
+        -moz-justify-content: center;
+        justify-content: center;
+        -webkit-align-items: center;
+        -moz-align-items: center;
+        align-items: center;
+    overflow: hidden;
+    box-sizing: border-box;
+    backface-visibility: hidden;
+    transform-origin: top;
+}
+
+
+.img-gallery .main-container > .overlay-txt:nth-of-type(2){
+    top: 0;
+    right: 0;
+}
+
+
+.img-gallery .main-container > .overlay-txt p {
+    font-size: 12px;
+}
+
+
+
+.img-gallery .main-container:hover .overlay-txt:nth-of-type(1){
+    height: 100%;
+    background-color: #ff694c;
+    padding: 20px;
+}
+
+
+
+.img-gallery .main-container .overlay-txt > div > ul{
+    padding: 0;
+}
+
+
+.img-gallery .main-container .overlay-txt > div > ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 5px;
+    text-align: center;
+}
+
+
+
+.img-gallery .main-container .overlay-txt > div > ul > li > a > img{
+    width: 40px;
+    height: 40px;
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px){
+    .img-gallery{
+        line-height: 0;
+        -webkit-column-count: 3;
+        -webkit-column-gap: 0;
+        -moz-column-count: 3;
+        -moz-column-gap: 0;
+        column-count: 3;
+        column-gap: 0;
+    }
+
+}
+
+
+
+@media screen and (max-width: 768px){
+    .img-gallery{
+        line-height: 0;
+        -webkit-column-count: 2;
+        -webkit-column-gap: 0;
+        -moz-column-count: 2;
+        -moz-column-gap: 0;
+        column-count: 2;
+        column-gap: 0;
+    }
+
+}
+
+
+@media screen and (max-width: 400px){
+    .img-gallery{
+        line-height: 0;
+        -webkit-column-count: 1;
+        -webkit-column-gap: 0;
+        -moz-column-count: 1;
+        -moz-column-gap: 0;
+        column-count: 1;
+        column-gap: 0;
+    }
+
+}
+
+
+/*=============Mobile===============*/
+
+
+.img-gallery-mobile{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+
+}
+
+
+.img-gallery-mobile .main-container > img{
+    width: 100%!important;
+    height: auto!important;
+}
+
+
+.img-gallery-mobile .main-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.img-gallery-mobile .main-container > .overlay-txt:nth-of-type(1){
+    position: absolute;
+    top: 0;
+    left: 0;
+    /*opacity: 0;*/
+    line-height: 1.6em;
+    color: #fff;
+    text-align: center;
+    transition: all .4s ease-in-out;
+    height: 0;
+    display: -webkit-flex;
+    display: -moz-flex;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+    overflow: hidden;
+    box-sizing: border-box;
+    backface-visibility: hidden;
+    transform-origin: top;
+}
+
+
+.img-gallery-mobile .main-container > .overlay-txt:nth-of-type(2){
+    top: 0;
+    right: 0;
+}
+
+
+.img-gallery-mobile .main-container > .overlay-txt p {
+    font-size: 12px;
+}
+
+
+
+.img-gallery-mobile .main-container:hover .overlay-txt:nth-of-type(1){
+    height: 100%;
+    background-color: #ff694c;
+    padding: 20px;
+}
+
+
+
+.img-gallery-mobile .main-container .overlay-txt > div > ul{
+    padding: 0;
+}
+
+
+.img-gallery-mobile .main-container .overlay-txt > div > ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 5px;
+    text-align: center;
+}
+
+
+
+.img-gallery-mobile .main-container .overlay-txt > div > ul > li > a > img{
+    width: 40px;
+    height: 40px;
+
+}
+
+
+
+
+/* =====================================================================================================================
+                                          Contact Section
+ ===================================================================================================================*/
+
+#contact .contact-bg {
+    background: url(../img/translate-icon.png);
+    background-color: #ff694c;
+    /*background-size: cover;*/
+    height: 100vh;
+    display: -webkit-flex;
+    display: -moz-flex;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+    text-align: center;
+    animation: move 15s linear 1s infinite;
+    animation-fill-mode: both;
+}
+
+
+@-webkit-keyframes move  {
+    from {
+        background-position: 0 0;
+
+    }
+
+    to{
+        background-position: 0 -200px;
+    }
+
+}
+
+
+@-moz-keyframes move  {
+    from {
+        background-position: 0 0;
+
+    }
+
+    to{
+        background-position: -200px 0;
+    }
+
+}
+
+
+@keyframes move  {
+    from {
+        background-position: 0 0;
+
+    }
+
+    to{
+        background-position: -200px 0;
+    }
+
+}
+
+
+
+
+/* =====================================================================================================================
+                                          Footer Section
+ ===================================================================================================================*/
+
+
+#footer .footer-bg {
+    padding: 15% 5%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+#footer .footer-bg .social-icons{
+    padding: 0;
+}
+
+
+#footer .footer-bg .social-icons li{
+    text-align: center;
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+#footer .footer-bg .social-icons li a{
+    color: #999;
+    font-size: 20px;
+}
+
+#footer .footer-bg p {
+    margin-top: 30px;
+}
+
+
+#footer .footer-bg p a {
+    color: #999;
+}
+
+
+
+/* =====================================================================================================================
+
+
+ Single Service Display Starts Here
+
+
+ ===================================================================================================================*/
+
+
+
+
+/* =====================================================================================================================
+                                        Single Service (Django)
+ ===================================================================================================================*/
+
+
+#services * .container{
+    padding: 0 10%;
+}
+
+
+.service-title{
+    color: #ff694c;
+    text-align: center;
+    margin: 20px 0;
+    text-transform: capitalize;
+}
+
+
+#services > #service-des .container .main-tab-container{
+    margin-top: 10%;
+
+}
+
+#service-des .container .tab-navigation .line-through {
+    margin-top: 15%;
+}
+
+#service-des .container .tab-navigation .line-through{
+    height: 15px;
+    border-bottom: 1px solid #999;
+    padding-left: 15%;
+}
+
+#service-des .container .tab-navigation .line-through span{
+    padding: 0 15px;
+    background-color: #fff;
+}
+
+#service-des .container .tab-navigation .line-through span p{
+    display: inline;
+}
+
+#service-des .container .tab-navigation .line-through span ul.nav-tabs {
+    margin-top: -48px;
+    border: none;
+}
+
+.nav-tabs>li>a{
+    font-size: 14px;
+}
+
+
+
+.container .form-container {
+    width: 350px;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #ff694c;
+    padding: 20px;
+    text-align: center;
+    margin: 0 0 30px 30px;
+    color: #fff;
+    float: right;
+    border-radius: 5px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+
+.container .form-container h3 {
+    margin: 30px 30px 60px 5px;
+    text-align: left;
+}
+
+
+.container .form-container button {
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: #f5f5f5;
+    color: #565a5c;
+    border: none;
+    margin-top: 40px;
+}
+
+
+/*=========Floating labels=============*/
+
+
+.f-input-group{
+    width: 100%;
+    margin: 20px auto;
+    position: relative;
+}
+
+.float-input{
+    border: none;
+    border-bottom: 1px solid #eee;
+    font-size: 16px;
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+}
+
+
+.float-input:focus{
+    outline: none;
+}
+
+
+.float-label{
+    color: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .5s;
+
+
+}
+
+
+.label-top{
+    visibility: visible;
+    opacity: 1;
+    top: -20px;
+}
+
+
+
+.f-input-group > input#Message {
+    height: 100px;
+
+}
+
+
+::-webkit-input-placeholder{
+    color: #fff;
+}
+
+::-moz-input-placeholder{
+    color: #fff;
+}
+
+/*==============Floating labels ends here========*/
+
+
+/* ==========================================================================
+   Services Features
+   ========================================================================== */
+
+#service-feature .container .feature-1:not(:first-of-type), .feature-2, .feature-3 {
+    margin: 5% 0;
+}
+
+#service-feature .container   h3{
+    margin: 20px 0;
+    font-weight: 700;
+    color: #373a5e;
+}
+
+
+
+/* ==========================================================================
+   Services Features
+   ========================================================================== */
+
+#service-portfolio .port-effect{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    transition: .3s ease-in-out;
+
+}
+
+#service-portfolio .port-effect img {
+    transition: .3s ease-in-out;
+    transform: scale(1);
+
+}
+
+#service-portfolio .port-effect .port-overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #ff694c;
+    transition: .3s ease-in-out;
+    padding: 10px;
+    text-align: center;
+    display: -webkit-flex;
+    display: -moz-flex;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;7
+    justify-content: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    cursor: pointer;
+    height: 100%;
+    transform-origin: right;
+    backface-visibility: hidden;
+    box-sizing: border-box;
+    right: -100%;
+}
+
+
+#service-portfolio .port-effect:hover .port-overlay  {
+    right: 0;
+    height: 100%;
+}
+
+#service-portfolio .port-effect:hover img  {
+    transform: scale(1.3);
+}
+
+
+/* =====================================================================================================================
+
+
+ Thank you page Starts Here
+
+
+ ===================================================================================================================*/
+
+#thankyou section#hero-section{
+    height: 60vh;
+    display: -webkit-flex;
+    display: -moz-flex;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+}
+
+
+#thankyou .main-title{
+    font-size: 9rem;
+    text-align: center;
+    color: #373a5e;
+    text-transform: uppercase;
+}
+
+
+#thankyou .main-title span:nth-of-type(1):not(:last-of-type){
+    font-weight: 800;
+    display: block;
+    color: #373a5e;
+    margin-left: -7%;
+}
+
+
+#thankyou .main-title span:nth-of-type(1) span{
+    font-weight: 300;
+    color: #fff;
+}
+
+
+
+#thankyou .main-title span:nth-of-type(2){
+    font-weight: 800;
+    color: #373a5e;
+    display: block;
+    margin-left: -5%;
+
+}
+
+
+#thankyou .main-title span:nth-of-type(2) span{
+    font-weight: 800;
+    color: #373a5e;
+}
+
+
+#thankyou .main-title span:nth-of-type(3){
+    font-weight: 800;
+    display: block;
+    margin-left: -13.8%;
+}
+
+
+
+#thankyou .main-title span:nth-of-type(3) span{
+    font-weight: 100;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 600px) {
+    #thankyou .main-title{
+        font-size: 7rem;
+        text-align: left;
+        color: #373a5e;
+        text-transform: uppercase;
+        background-color: rgba(0, 0, 0, 0.04);
+        padding: 30px;
+        margin: 0;
+    }
+
+    #thankyou .main-title span{
+        padding: 0!important;
+        line-height: 75px;
+        margin: 0!important;
+    }
+
+
+
+}
+
+
+
+
+/* =====================================================================================================================
+
+
+Contact us page Starts Here
+
+
+ ===================================================================================================================*/
+
+#contact-us section#hero-section{
+    height: 60vh;
+    display: -webkit-flex;
+    display: -moz-flex;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
+}
+
+
+#contact-us .main-title{
+    font-size: 9rem;
+    text-align: center;
+    color: #373a5e;
+    text-transform: uppercase;
+}
+
+
+#contact-us .main-title span:nth-of-type(1):not(:last-of-type){
+    font-weight: 800;
+    display: block;
+    color: #373a5e;
+    margin-left: -9%;
+}
+
+
+#contact-us .main-title span:nth-of-type(1) span{
+    color: #373a5e;
+    font-weight: 800;
+
+}
+
+
+
+#contact-us .main-title span:nth-of-type(2){
+    font-weight: 300;
+    color: #373a5e;
+    display: block;
+    padding-left: 8%;
+
+}
+
+
+#contact-us .main-title span:nth-of-type(2) span{
+    font-weight: 300;
+    color: #373a5e;
+}
+
+
+#contact-us .main-title span:nth-of-type(3){
+    font-weight: 300;
+    display: block;
+    margin-left: 6.2%;
+    color: #ff694c;
+}
+
+
+
+#contact-us .main-title span:nth-of-type(3) span{
+    font-weight: 300;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 600px) {
+    #contact-us .main-title{
+        font-size: 7rem;
+        text-align: left;
+        color: #373a5e;
+        text-transform: uppercase;
+        background-color: rgba(0, 0, 0, 0.04);
+        padding: 30px;
+        margin: 0;
+    }
+
+    #contact-us .main-title span{
+        padding: 0!important;
+        line-height: 75px;
+        margin: 0!important;
+    }
+
+
+
+}
+
+
+#map .container {
+    padding: 10%;
+}
+
+
+#contact-us #footer .footer-bg {
+    padding: 10%;
+}
+
+
